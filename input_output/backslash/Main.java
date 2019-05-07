@@ -13,7 +13,7 @@ public class Main
     public static void main(String args[]) throws FileNotFoundException
     {
        File file = new File("records.txt");
-
+       System.out.println("c:\Code\Main.java");
        Scanner input = new Scanner(file);
 
        while(input.hasNextLine())
@@ -31,7 +31,6 @@ public class Main
           System.out.println("Sale Amount :" + sale_amount);
           System.out.println("Date :" + date);
           System.out.println("******************");
-
        }
 
     }
