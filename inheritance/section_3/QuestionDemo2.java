@@ -8,11 +8,17 @@ public class QuestionDemo2
    public static void main(String[] args)
    {
       ChoiceQuestion first = new ChoiceQuestion();
+      Question second = new Question();
+      System.out.println(first.getClass());
+      System.out.println(second.getClass());
+      /*
+      ChoiceQuestion first = new ChoiceQuestion();
       first.setText("What was the original name of the Java language?");
       first.addChoice("*7", false);
       first.addChoice("Duke", false);
       first.addChoice("Oak", true);
       first.addChoice("Gosling", false);
+
 
       ChoiceQuestion second = new ChoiceQuestion();
       second.setText("In which country was the inventor of Java born?");
@@ -23,6 +29,7 @@ public class QuestionDemo2
 
       presentQuestion(first);
       presentQuestion(second);
+      */
    }
 
    /**

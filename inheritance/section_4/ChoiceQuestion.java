@@ -15,6 +15,12 @@ public class ChoiceQuestion extends Question
       choices = new ArrayList<String>();
    }
 
+   public ChoiceQuestion(String text)
+   {
+      super(text);
+      choices = new ArrayList<String>();
+   }
+
    /**
       Adds an answer choice to this question.
       @param choice the choice to add
