@@ -7,13 +7,27 @@ import java.io.FileNotFoundException;
 
 public class Main
 {
+
+   public static int bin_search(String key,ArrayList<Person> list,int low,int high)
+   {
+      int mid = low + (high - low) / 2;
+      if(mid >= 0 && mid <= high)
+      {
+         if(list.get(mid).getLastName().equals(key))
+            return mid;
+         if(list.get(mid).getLastName().compareTo(key) > 0 )
+            return bin_search(key,list,low,mid-1);
+         else 
+            return bin_search(key,list,mid+1,high);
+      }
+      return -1;
+   }
+
    public static void main(String [] args) throws FileNotFoundException
    {
-
       File f = new File("telephonedata.csv");
       Scanner file_in = new Scanner(f);
       int line_number = 0;
-      //Person [] telephone_list = new Person[1000];
       ArrayList<Person> telephone_list = new ArrayList<Person>();
       while(file_in.hasNext())
       {
@@ -31,7 +45,12 @@ public class Main
          line_number++;
       }
       Collections.sort(telephone_list,new PersonComparator());
+      int index=0;
       for(Person p : telephone_list)
-         System.out.println(p);
+      {
+         System.out.println(""+index+": "+p);
+         index++;
+      }
+      System.out.println("Wrightim -> " + bin_search("Wrightim",telephone_list,0,telephone_list.size()-1));
    }
 }
