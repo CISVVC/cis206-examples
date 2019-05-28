@@ -35,22 +35,23 @@ public class Main
          {
             String line = file_in.nextLine();
             String [] field = line.split(",");
-            //telephone_list[line_number-1].setLastName(field[2]);
-            telephone_list.add(new Person(field[2]));
             // field[0] is the id
             // field[1] is the first_name
             // field[2] is the last_name
             // field[3] is the phone_number
+            //
+            telephone_list.add(new Person(field[2])); // The Person object is created with the lastname as the parameter for the constructor
          }
          line_number++;
       }
-      Collections.sort(telephone_list,new PersonComparator());
+      //Collections.sort(telephone_list,new PersonComparator());
+      Collections.sort(telephone_list);
       int index=0;
       for(Person p : telephone_list)
       {
          System.out.println(""+index+": "+p);
          index++;
       }
-      System.out.println("Wrightim -> " + bin_search("Wrightim",telephone_list,0,telephone_list.size()-1));
+      System.out.println("Wyld -> " + bin_search("Wyld",telephone_list,0,telephone_list.size()-1));
    }
 }
