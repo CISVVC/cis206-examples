@@ -27,11 +27,10 @@ public class Main
             // field[1] is the first_name
             // field[2] is the last_name
             // field[3] is the phone_number
-            System.out.println(line);
          }
          line_number++;
       }
-      Collections.sort(telephone_list);
+      Collections.sort(telephone_list,new PersonComparator());
       for(Person p : telephone_list)
          System.out.println(p);
    }

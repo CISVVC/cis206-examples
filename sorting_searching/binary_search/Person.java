@@ -1,5 +1,4 @@
-
-public class Person implements Comparable
+public class Person 
 {
    private String lastname;
 
@@ -8,10 +7,9 @@ public class Person implements Comparable
       this.lastname = lastname;
    }
 
-   @Override
-   public int compareTo(Person r)
+   public String getLastName()
    {
-      return this.lastname.compareTo(r.lastname);
+      return this.lastname;
    }
 
    public void setLastName(String lastname)
