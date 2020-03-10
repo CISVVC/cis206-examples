@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class Main
 {
    public static void main(String args[])
    {
-         String a = "";
+         Scanner input = new Scanner(System.in);
+         System.out.print("Enter a word : ");
+         String mystring =  input.next();
+         System.out.println("You entered: " + mystring);
 
-         a = Character.toString('a') + Character.toString('b');
-
-         System.out.println(a);
+         System.out.print("Enter a sentence : ");
+         mystring =  input.nextLine();
+         System.out.println("You entered: " + mystring);
    }
 }
