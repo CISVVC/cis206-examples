@@ -25,7 +25,7 @@ public class Main
          int a = 241;
          System.out.println(digit(a / 100)); 
          System.out.println(digit(a / 10 % 10)); 
-         System.out.println(digit(a / 1 % 10)); 
+         System.out.println(digit(a % 10)); 
          //System.out.println(digit(a));
    }
 }
