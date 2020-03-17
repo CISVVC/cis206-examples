@@ -27,8 +27,7 @@ public class Main
             // Computer's turn if it's stupid or size of pile is a power of 2
             // minus one, make a random move
             if (smartOrStupid == 1
-               || (sizeOfPile == 1 || sizeOfPile == 3 || sizeOfPile == 
-               || sizeOfPile == 15 || sizeOfPile == 31 || sizeOfPile == 63))
+               || (sizeOfPile == 1 || sizeOfPile == 3 || sizeOfPile == || sizeOfPile == 15 || sizeOfPile == 31 || sizeOfPile == 63))
             {
                // Generate a number between 1 and half the pile
                marblesToRemove = (int) (Math.random() * (sizeOfPile / 2 + 1)) + 1;
