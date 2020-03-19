@@ -13,6 +13,7 @@ public class Main
         System.out.println("In foo() x = " + x);
         System.out.println("In foo() Main.x = " + Main.x);
     }
+
     public static void main(String[] args)
     {
         int x = 20;
