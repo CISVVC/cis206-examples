@@ -9,3 +9,4 @@ clean:
 
 run:
 	@java Main
+
