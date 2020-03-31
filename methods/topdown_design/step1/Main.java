@@ -88,6 +88,7 @@ public class Main
    public static String roman(int i)
    {
       String v="";
+
       if(i >= 1000)
       {
          v += getDigits(i/1000,places(i));
@@ -108,13 +109,14 @@ public class Main
          v += getDigits(i,places(i));
       }
 
+
       
       return v;
    }
 
    public static void main(String[] args)
    {
-      for(int i = 1;i < 101;i++) {
+      for(int i = 1;i < 3001;i++) {
           System.out.printf("%d -> %s\n",i,roman(i));
       }
    }
