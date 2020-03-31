@@ -36,6 +36,6 @@ public class Main
          System.out.println(digit(a / 1000 % 10)); 
          System.out.println(digit(a / 100 % 10)); 
          System.out.println(digit(a / 10 % 10)); 
-         System.out.println(digit(a / 1 % 10)); 
+         System.out.println(digit(a % 10)); 
    }
 }

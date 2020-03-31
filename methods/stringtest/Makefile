@@ -6,6 +6,3 @@ edit:
 
 run:
 	java Main
-
-clean:
-	rm Main.class
