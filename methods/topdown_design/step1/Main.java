@@ -50,7 +50,7 @@ public class Main
       switch(place)
       {
          case 1000:
-            v =  rDigits("","","M",digit);
+            v =  rDigits("M","","",digit);
             break;
          case 100:
             v =  rDigits("C","D","M",digit);
@@ -83,27 +83,11 @@ public class Main
       return 0;
 
    }
-// 2100
-// 101   CI
+
    public static String roman(int i)
    {
       String v="";
 
-      if(i >= 1000)
-      {
-         v += getDigits(i/1000,places(i));
-         i = i % 1000;
-      }
-      if(i >= 100)
-      {
-         v += getDigits(i/100,places(i));
-         i = i % 100;
-      }
-      if(i >= 10)
-      {
-         v += getDigits(i/10,places(i));
-         i = i % 10;
-      }
       if(i >= 1)
       {
          v += getDigits(i,places(i));
