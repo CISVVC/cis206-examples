@@ -25,7 +25,7 @@ public class CashRegister
       Adds an item to this cash register.
       @param price the price of the added item
    */
-   public void add_item(double price){
+   public void addItem(double price){
       item_count++;
       total_price = total_price + price;
    }
@@ -34,14 +34,14 @@ public class CashRegister
       Gets the price of all items in the current sale.
       @return the total amount
    */
-   public double get_total() {
+   public double getTotal() {
       return total_price; 
    }
    /**
       Gets the number of items in the current sale.
       @return the item count
    */
-   public int get_count() {
+   public int getCount() {
       return item_count; 
    }
 }
