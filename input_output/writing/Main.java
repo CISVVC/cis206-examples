@@ -16,25 +16,24 @@ public class Main
        File file = new File("records.txt");
 
        Scanner input = new Scanner(file);
-       PrintWriter out = new PrintWriter("output.txt");
+       PrintWriter output = new PrintWriter("outputput.txt");
 
-       while(input.hasNextLine())
-       {
+       while(input.hasNextLine()) {
           String buffer = input.nextLine();
-          String[] values = buffer.split(";");
+          String[] values = buffer.split(",");
 
           String name = values[0];
           String category = values[1];
           String sale_amount = values[2];
           String date = values[3];
 
-          out.println("Name :" + name);
-          out.println("Category :" + category);
-          out.println("Sale Amount :" + sale_amount);
-          out.println("Date :" + date);
-          out.println("******************");
+          output.println("Name :" + name);
+          output.println("Category :" + category);
+          output.println("Sale Amount :" + sale_amount);
+          output.println("Date :" + date);
+          output.println("******************");
        }
-       out.close();
+       output.close();
 
     }
 

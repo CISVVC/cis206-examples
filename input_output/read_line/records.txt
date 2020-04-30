@@ -1,0 +1,2 @@
+John Smith;Dinner;35.00;April 23 2019
+Jane Doe;Dinner;45.00;April 23 2019

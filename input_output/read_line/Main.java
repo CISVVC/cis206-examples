@@ -9,24 +9,18 @@ import java.util.Scanner;
 
 public class Main
 {
-/*
- * Whitespace
- * ' ' '\t' '\n' '\r' '\f'  "A line in windows ends with \r\n"
- */
 
     public static void main(String args[]) throws FileNotFoundException
     {
-       File input_file = new File("input.txt");
+       File file = new File("records.txt");
 
-       Scanner input = new Scanner(input_file);
-       input.useDelimiter("[;-]");
-       while(input.hasNextInt())
+       Scanner input = new Scanner(file);
+
+       while(input.hasNext())
        {
-           int number = input.nextInt();
-           System.out.printf("%d ",number);    
+          String currentLine = input.nextLine();
+          System.out.println(currentLine);
        }
-
-       System.out.println();
 
     }
 

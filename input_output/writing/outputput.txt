@@ -1,0 +1,10 @@
+Name :John Smith
+Category :Dinner
+Sale Amount :35.00
+Date :April 23 2019
+******************
+Name :Jane Doe
+Category :Dinner
+Sale Amount :45.00
+Date :April 23 2019
+******************
