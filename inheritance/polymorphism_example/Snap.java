@@ -4,4 +4,10 @@ public class Snap extends Rice
    {
       System.out.println("Snap");
    }
+
+   public String toString() 
+   {
+      return "Rice::Snap";
+   }
+
 }

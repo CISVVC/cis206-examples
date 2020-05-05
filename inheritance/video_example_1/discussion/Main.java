@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
    A simulated discussion board.
 */
-public class DiscussionBoard
+public class Main
 {
    private ArrayList<User> users;
    private ArrayList<Message> messages;
@@ -14,13 +14,13 @@ public class DiscussionBoard
 
    public static void main(String[] args)
    {
-      new DiscussionBoard().run();
+      new Main().run();
    }
 
    /**
       Constructs the discussion board.
    */
-   public DiscussionBoard()
+   public Main()
    {
       in = new Scanner(System.in);
       users = new ArrayList<User>();

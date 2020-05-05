@@ -4,4 +4,9 @@ public class Pop extends Rice
    {
       System.out.println("Pop");
    }
+
+   public String toString() 
+   {
+      return "Rice::Pop";
+   }
 }

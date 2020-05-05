@@ -4,4 +4,9 @@ public class Crackle extends Rice
    {
       System.out.println("Crackle");
    }
+
+   public String toString() 
+   {
+      return "Rice::Crackle";
+   }
 }
