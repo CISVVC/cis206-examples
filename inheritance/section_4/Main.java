@@ -7,12 +7,9 @@ public class Main
 {
    public static void main(String[] args)
    {
-      Question first = new Question();
-      first.setText("Who was the inventor of Java?");
       first.setAnswer("James Gosling");      
 
-      ChoiceQuestion second = new ChoiceQuestion();
-      second.setText("In which country was the inventor of Java born?");
+      ChoiceQuestion second = new ChoiceQuestion("In which country was the inventor of Java born?");
       second.addChoice("Australia", false);
       second.addChoice("Canada", true);
       second.addChoice("Denmark", false);

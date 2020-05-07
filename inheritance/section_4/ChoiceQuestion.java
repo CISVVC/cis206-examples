@@ -18,6 +18,7 @@ public class ChoiceQuestion extends Question
    public ChoiceQuestion(String text)
    {
       super(text);
+      System.out.println("ChoiceQuestion-constructor");
       choices = new ArrayList<String>();
    }
 

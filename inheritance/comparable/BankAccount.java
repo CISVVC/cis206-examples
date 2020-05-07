@@ -2,7 +2,7 @@
    A bank account has a balance that can be changed by 
    deposits and withdrawals.
 */
-public class BankAccount implements Measurable
+public class BankAccount implements Measurable,Comparable<BankAccount>
 {  
    private double balance;
 
@@ -49,8 +49,21 @@ public class BankAccount implements Measurable
    {   
       return balance;
    }
+
    public double getMeasure()
    {
       return balance;
+   }
+
+   public int compareTo(BankAccount other)
+   {
+      if (balance < other.getBalance()) { return -1; }
+      if (balance > other.getBalance()) { return 1; }
+      return 0;
+   }
+
+   public String toString()
+   {
+      return getClass().getName() + "[balance="+balance+"]";
    }
 }
