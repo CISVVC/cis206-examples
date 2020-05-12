@@ -1,5 +1,5 @@
 all:
-	javac Main.java
+	javac *.java
 
 edit:
 	vim Main.java

@@ -3,15 +3,13 @@ import java.util.Scanner;
 /**
    This program shows a simple quiz with two choice questions.
 */
-public class QuestionDemo2
+public class Main
 {
    public static void main(String[] args)
    {
       ChoiceQuestion first = new ChoiceQuestion();
-      Question second = new Question();
       System.out.println(first.getClass());
       System.out.println(second.getClass());
-      /*
       ChoiceQuestion first = new ChoiceQuestion();
       first.setText("What was the original name of the Java language?");
       first.addChoice("*7", false);
@@ -29,7 +27,6 @@ public class QuestionDemo2
 
       presentQuestion(first);
       presentQuestion(second);
-      */
    }
 
    /**

@@ -17,6 +17,7 @@ public class Question
 
    public Question(String text)
    {
+      System.out.println("Question-constructor");
       this.text = text;
       this.answer = "";
    }
