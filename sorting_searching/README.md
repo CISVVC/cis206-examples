@@ -18,3 +18,6 @@ Bubble Sort - https://www.youtube.com/watch?v=6Gv8vg0kcHc
 
    [Video](https://www.youtube.com/watch?v=SLauY6PpjW4)
 
+## Big O
+
+   [Video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
