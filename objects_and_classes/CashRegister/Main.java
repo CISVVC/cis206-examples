@@ -16,6 +16,8 @@ public class Main {
       display(register1);
       register1.addItem(2.50);
       display(register1);
+
+      System.out.println("The instances of CashRegister "+CashRegister.instanceCount());
    }
 
 }

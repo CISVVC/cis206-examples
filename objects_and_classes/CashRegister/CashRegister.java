@@ -4,6 +4,7 @@
 */
 public class CashRegister
 {
+   private static int instances = 0;
    private int item_count;
    private double total_price;
    /**
@@ -12,6 +13,7 @@ public class CashRegister
    public CashRegister() {
       item_count = 0;
       total_price = 0;
+      instances++;
    }
    /**
       Clears this cash register.
@@ -43,6 +45,10 @@ public class CashRegister
    */
    public int getCount() {
       return item_count; 
+   }
+
+   public static int instanceCount() {
+      return instances;
    }
 }
 
