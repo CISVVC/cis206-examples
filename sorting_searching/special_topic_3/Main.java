@@ -3,6 +3,8 @@ import java.util.Arrays;
 /**
    This program demonstrates the quick sort algorithm by
    sorting an array that is filled with random numbers.
+
+   Good discussion on QuickSort https://www.youtube.com/watch?v=SLauY6PpjW4
 */
 public class Main
 {  

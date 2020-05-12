@@ -4,6 +4,9 @@ import java.util.Scanner;
    This program measures how long it takes to sort an
    array of a user-specified size with the selection
    sort algorithm.
+
+   Good discussion on selection sort
+   https://www.youtube.com/watch?v=cqh8nQwuKNE
 */
 public class Main
 {  

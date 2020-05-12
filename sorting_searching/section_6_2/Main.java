@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 /**
    This program demonstrates the binary search algorithm.
+
+   Good discussion on Binary Search
+   https://www.youtube.com/watch?v=P3YID7liBug
 */
 public class Main
 {  
