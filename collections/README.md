@@ -1,6 +1,30 @@
 # Overview of the Collections Framework
+## Goals
+Introduce the collection classes supplied in the Java library and demonstrate their use
+Demonstrate use of iterators to traverse collections
+Learn to choose appropriate collections for solving programming problems
+Study applications of stacks and queues
 
-## Summary
+## Collections Framework
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p4)
+
+## Linked Lists
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p12)
+
+## Sets
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p23)
+
+## Maps
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p36)
+
+## Stacks Queues and Priority Queues
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p53)
+
+## Stack and Queue Applications
+[Slides](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p59)
+
+## [Summary](https://docs.google.com/presentation/d/1yxnYi56gUzUAH2JtuwnfZ9VMmjpOAnyrdDH1f1l8wws/edit#slide=id.p77)
+
 ### Understand the architecture of the Java collections framework.
 > *  A collection groups together elements and allows them to be retrieved later.
 > *  A list is a collection that remembers the order of its elements.
