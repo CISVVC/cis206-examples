@@ -2,7 +2,7 @@ all:
 	@javac *.java
 
 edit:
-	@vim Main.java
+	@vim -p *.java
 
 clean:
 	@rm *.class
