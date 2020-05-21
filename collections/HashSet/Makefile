@@ -1,8 +1,8 @@
 all:
-	javac Main.java
+	javac *.java
 
 edit:
-	vim Main.java
+	vim -p *.java
 
 run:
 	java Main
