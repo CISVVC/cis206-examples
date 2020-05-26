@@ -19,5 +19,7 @@ public class Main
       // Print all keys and values in the map
       MapUtils.<String,Employee>print(employees);
 
+      System.out.println(""+((new Employee("Joe")).hashCode()) + ":"+((new Employee("Joe")).hashCode()) );
+
    }
 }

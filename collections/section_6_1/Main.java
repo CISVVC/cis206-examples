@@ -7,6 +7,8 @@ import java.util.Stack;
 */
 public class Main
 {
+   // ((A + B) * 3 ) + 2
+
    public static void main(String[] args)
    {
       Scanner in = new Scanner(System.in);
