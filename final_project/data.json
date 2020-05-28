@@ -1,0 +1,36 @@
+{
+"ABW":  {
+
+            "2020-03-13" : {
+               "iso_code" : "ABW",
+               "location" : "Aruba",
+               "date" : "2020-03-13"
+               .
+               .
+               .
+            },
+            "2020-03-20" : {
+               "iso_code" : "ABW",
+               "location" : "Aruba",
+               "date" : "2020-03-20",
+               .
+               .
+               .
+            }
+
+},
+
+"AFG" : {
+          "2019-12-31" :  {
+             "iso_code" : "AFG",
+             "location" : "Afghanistan",
+             "date" : "2019-12-31",
+             .
+             .
+             .
+          }
+      },
+.
+.
+.
+}
